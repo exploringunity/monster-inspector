@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+  <engine:VisualElement>
+    <engine:Style src="MonsterEditor.uss" />
+    <editor:PropertyField binding-path="kind" />
+    <editor:PropertyField binding-path="maxHp" />
+    <engine:Label name="attacksLbl" text="▼ Attacks (###)" />
+    <engine:Button name="addAttackBtn" text="Add Attack" />
+    <engine:VisualElement name="attacksContainer" />
+  </engine:VisualElement>
+</engine:UXML>

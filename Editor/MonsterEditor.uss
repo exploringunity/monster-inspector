@@ -1,0 +1,11 @@
+.horizontalContainer {
+    flex-direction: row;
+}
+
+TextField {
+    flex-grow: 1;
+}
+
+#attacksLbl {
+    margin-left: -12px;
+}
